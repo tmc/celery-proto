@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+/* message CeleryTask { */
+/*   oneof task { */
+/*     MessageType1 message_type_1 = 1; */
+/*     MessageType2 message_type_2 = 2; */
+/*   } */
+/* } */
+message MessageType1 {
+  string name = 1;
+}
+
+message MessageType2 {
+  string name = 1;
+}
