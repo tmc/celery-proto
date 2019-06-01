@@ -1,11 +1,7 @@
 syntax = "proto3";
 
-/* message CeleryTask { */
-/*   oneof task { */
-/*     MessageType1 message_type_1 = 1; */
-/*     MessageType2 message_type_2 = 2; */
-/*   } */
-/* } */
+// Arbitrary types for demonstration purposes.
+
 message MessageType1 {
   string name = 1;
 }
